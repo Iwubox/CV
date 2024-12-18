@@ -1,0 +1,64 @@
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  justify-content: space-between;
+}
+
+.navLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: beige;
+  width: 50%;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.navRight {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  padding: 0 1rem;
+}
+
+.banner {
+  background-color: lightskyblue;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.pfp {
+  display: flex;
+  justify-content: center;
+}
+
+.pfp img {
+  width: 9rem;
+  height: 9rem;
+  background-color: blue;
+  border-radius: 45%;
+}
+
+.Roman {
+  display: flex;
+  justify-content: center;
+}
+
+.banner p {
+  font-size: 2rem;
+  color: beige;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
