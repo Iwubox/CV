@@ -87,10 +87,16 @@ body {
 }
 
 .sliderCircleHB {
+  background-color: rgb(85, 85, 85);
   width: 3.5rem;
   height: 3.5rem;
   margin-left: 0.25rem;
+  border-radius: 50%;
   border: 0.25rem solid black;
+}
+
+.sliderCircleHB:hover {
+  opacity: 80%;
 }
 
 .sliderOn {
